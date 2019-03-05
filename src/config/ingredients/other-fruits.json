@@ -1,0 +1,121 @@
+{
+  "displayName": "Other Fruits",
+  "name": "other-fruits",
+  "servingSuggestions": [
+    {
+      "suggestion": "medium-sized fruit",
+      "serving": {
+        "quantity": 1
+      }
+    },
+    {
+      "suggestion": "cut-up fruit",
+      "imperialServing": {
+        "quantity": 1,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 120,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "dried fruit",
+      "imperialServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 3,
+  "types": [
+    {
+      "name": "Apples"
+    },
+    {
+      "name": "Dried apricots"
+    },
+    {
+      "name": "Avocados"
+    },
+    {
+      "name": "Bananas"
+    },
+    {
+      "name": "Cantaloupe"
+    },
+    {
+      "name": "Clementines"
+    },
+    {
+      "name": "Dates"
+    },
+    {
+      "name": "Dried figs"
+    },
+    {
+      "name": "Grapefruit"
+    },
+    {
+      "name": "Honeydew"
+    },
+    {
+      "name": "Kiwifruit"
+    },
+    {
+      "name": "Lemons"
+    },
+    {
+      "name": "Limes"
+    },
+    {
+      "name": "Lychees"
+    },
+    {
+      "name": "Mangos"
+    },
+    {
+      "name": "Nectarines"
+    },
+    {
+      "name": "Oranges"
+    },
+    {
+      "name": "Papaya"
+    },
+    {
+      "name": "Passion fruit"
+    },
+    {
+      "name": "Peaches"
+    },
+    {
+      "name": "Pears"
+    },
+    {
+      "name": "Pineapple"
+    },
+    {
+      "name": "Plums (especially black plums)"
+    },
+    {
+      "name": "Pluots"
+    },
+    {
+      "name": "Pomegranates"
+    },
+    {
+      "name": "Prunes"
+    },
+    {
+      "name": "Tangerines"
+    },
+    {
+      "name": "Watermelon"
+    }
+  ]
+}

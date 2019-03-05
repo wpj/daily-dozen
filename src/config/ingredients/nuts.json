@@ -1,0 +1,66 @@
+{
+  "displayName": "Nuts",
+  "name": "nuts",
+  "servingSuggestions": [
+    {
+      "suggestion": ["nuts", "seeds"],
+      "imperialServing": {
+        "quantity": 30,
+        "unit": "g"
+      },
+      "metricServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      }
+    },
+    {
+      "suggestion": ["nut butter", "seed butter"],
+      "serving": {
+        "quantity": 2,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    {
+      "name": "Almonds"
+    },
+    {
+      "name": "Brazil nuts"
+    },
+    {
+      "name": "Cashews"
+    },
+    {
+      "name": "Chia seeds"
+    },
+    {
+      "name": "Hazelnuts"
+    },
+    {
+      "name": "Hemp seeds"
+    },
+    {
+      "name": "Macadamia nuts"
+    },
+    {
+      "name": "Pecans"
+    },
+    {
+      "name": "Pistachios"
+    },
+    {
+      "name": "Pumpkin seeds"
+    },
+    {
+      "name": "Sesame seeds"
+    },
+    {
+      "name": "Sunflower seeds"
+    },
+    {
+      "name": "Walnuts"
+    }
+  ]
+}

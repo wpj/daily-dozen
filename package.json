@@ -1,0 +1,85 @@
+{
+  "name": "daily-dozen",
+  "version": "0.1.0",
+  "description": "Dr. Michael Greger's Daily Dozen",
+  "main": "index.js",
+  "author": "Wyatt Johnston <w@wyatt.page>",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,json,css,md,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "prebuild": "tsc",
+    "build": "gatsby build",
+    "clean": "rimraf public",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "deploy": "netlify deploy",
+    "dev": "gatsby develop",
+    "predeploy": "yarn run clean && yarn run build",
+    "serve": "gatsby serve",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:e2e": "start-server-and-test dev http://localhost:8000 cypress:open",
+    "test:e2e:ci": "start-server-and-test dev http://localhost:8000 cypress:run",
+    "typecheck": "tsc",
+    "typecheck:watch": "tsc --watch"
+  },
+  "dependencies": {
+    "classcat": "^3.2.5",
+    "date-fns": "^2.0.0-alpha.27",
+    "gatsby": "^2.1.22",
+    "gatsby-image": "^2.0.31",
+    "gatsby-plugin-manifest": "^2.0.21",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-postcss": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.7",
+    "gatsby-plugin-sharp": "^2.0.24",
+    "gatsby-plugin-typescript": "^2.0.10",
+    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-transformer-sharp": "^2.1.15",
+    "graphql": "^14.1.1",
+    "idb": "^3.0.2",
+    "lodash.flatten": "^4.4.0",
+    "num2fraction": "^1.2.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@svgr/cli": "^4.1.0",
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-helmet": "^5.0.8",
+    "autoprefixer": "^9.4.10",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "babel-preset-gatsby": "^0.1.8",
+    "cypress": "^3.1.5",
+    "feather-icons": "^4.17.0",
+    "husky": "^1.3.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.1.0",
+    "jest-dom": "^3.1.2",
+    "lint-staged": "^8.1.5",
+    "netlify-cli": "^2.8.2",
+    "prettier": "^1.16.4",
+    "react-test-renderer": "^16.8.3",
+    "react-testing-library": "^6.0.0",
+    "rimraf": "^2.6.3",
+    "start-server-and-test": "^1.7.11",
+    "tachyons-build-css": "^1.8.1",
+    "typescript": "^3.3.3333"
+  }
+}

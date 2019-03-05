@@ -1,0 +1,77 @@
+{
+  "displayName": "Exercise",
+  "name": "exercise",
+  "servingSuggestions": [
+    {
+      "suggestion": "moderate-intensity activity",
+      "serving": {
+        "quantity": 90,
+        "unit": "min"
+      }
+    },
+    {
+      "suggestion": "vigorous-intensity activity",
+      "serving": {
+        "quantity": 40,
+        "unit": "min"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    { "name": "Bicycling" },
+    { "name": "Canoeing" },
+    { "name": "Dancing" },
+    { "name": "Dodgeball" },
+    { "name": "Downhill skiing" },
+    { "name": "Fencing" },
+    { "name": "Hiking" },
+    { "name": "Housework" },
+    { "name": "Ice-skating" },
+    { "name": "Inline skating" },
+    { "name": "Juggling" },
+    { "name": "Jumping on a trampoline" },
+    { "name": "Paddle boating" },
+    { "name": "Playing frisbee" },
+    { "name": "Roller-skating" },
+    { "name": "Shooting baskets" },
+    { "name": "Shoveling light snow" },
+    { "name": "Skateboarding" },
+    { "name": "Snorkeling" },
+    { "name": "Surfing" },
+    { "name": "Swimming recreationally" },
+    { "name": "Tennis (doubles)" },
+    { "name": "Treading water" },
+    { "name": "Walking briskly (4 mph)" },
+    { "name": "Water aerobics" },
+    { "name": "Waterskiing" },
+    { "name": "Yard work" },
+    { "name": "Yoga" },
+    { "name": "Backpacking" },
+    { "name": "Basketball" },
+    { "name": "Bicycling uphill" },
+    { "name": "Circuit weight training" },
+    { "name": "Cross-country skiing" },
+    { "name": "Football" },
+    { "name": "Hockey" },
+    { "name": "Jogging" },
+    { "name": "Jumping jacks" },
+    { "name": "Jumping rope" },
+    { "name": "Lacrosse" },
+    { "name": "Push-ups" },
+    { "name": "Pull-ups" },
+    { "name": "Racquetball" },
+    { "name": "Rock climbing" },
+    { "name": "Rugby" },
+    { "name": "Running" },
+    { "name": "Scuba diving" },
+    { "name": "Tennis (singles)" },
+    { "name": "Soccer" },
+    { "name": "Speed skating" },
+    { "name": "Squash" },
+    { "name": "Step aerobics" },
+    { "name": "Swimming laps" },
+    { "name": "Walking briskly uphill" },
+    { "name": "Water jogging" }
+  ]
+}

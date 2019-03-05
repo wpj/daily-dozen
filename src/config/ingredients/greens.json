@@ -1,0 +1,61 @@
+{
+  "displayName": "Greens",
+  "name": "greens",
+  "servingSuggestions": [
+    {
+      "suggestion": "raw",
+      "imperialServing": {
+        "quantity": 1,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 60,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "cooked",
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 90,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 2,
+  "types": [
+    {
+      "name": "Arugula"
+    },
+    {
+      "name": "Beet greens"
+    },
+    {
+      "name": "Collard greens"
+    },
+    {
+      "name": "Kale (black, green, and red)"
+    },
+    {
+      "name": "Mesclun mix (assorted young salad greens)"
+    },
+    {
+      "name": "Mustard greens"
+    },
+    {
+      "name": "Sorrel"
+    },
+    {
+      "name": "Spinach"
+    },
+    {
+      "name": "Swiss chard"
+    },
+    {
+      "name": "Turnip greens"
+    }
+  ]
+}

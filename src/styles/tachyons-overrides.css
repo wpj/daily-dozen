@@ -1,0 +1,22 @@
+:root {
+  --dark-blue: hsl(209, 61%, 16%);
+  --dark-teal: hsl(176, 100%, 13%);
+  --light-pink: hsl(360, 100%, 80%);
+  --teal: hsl(166, 64%, 49%);
+}
+
+.dark-teal {
+  color: var(--dark-teal);
+}
+
+.teal {
+  color: var(--teal);
+}
+
+.bg-dark-teal {
+  background-color: var(--dark-teal);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}

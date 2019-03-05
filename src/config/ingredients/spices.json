@@ -1,0 +1,112 @@
+{
+  "displayName": "Spices",
+  "name": "spices",
+  "servingSuggestions": [
+    {
+      "suggestion": "turmeric",
+      "serving": {
+        "quantity": 0.25,
+        "unit": "tsp"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    {
+      "name": "Allspice"
+    },
+    {
+      "name": "Barberries"
+    },
+    {
+      "name": "Basil"
+    },
+    {
+      "name": "Bay leaves"
+    },
+    {
+      "name": "Cardamom"
+    },
+    {
+      "name": "Chili powder"
+    },
+    {
+      "name": "Cilantro"
+    },
+    {
+      "name": "Cinnamon"
+    },
+    {
+      "name": "Cloves"
+    },
+    {
+      "name": "Coriander"
+    },
+    {
+      "name": "Cumin"
+    },
+    {
+      "name": "Curry powder"
+    },
+    {
+      "name": "Dill"
+    },
+    {
+      "name": "Fenugreek"
+    },
+    {
+      "name": "Garlic"
+    },
+    {
+      "name": "Ginger"
+    },
+    {
+      "name": "Horseradish"
+    },
+    {
+      "name": "Lemongrass"
+    },
+    {
+      "name": "Marjoram"
+    },
+    {
+      "name": "Mustard powder"
+    },
+    {
+      "name": "Nutmeg"
+    },
+    {
+      "name": "Oregano"
+    },
+    {
+      "name": "Parsley"
+    },
+    {
+      "name": "Pepper"
+    },
+    {
+      "name": "Peppermint"
+    },
+    {
+      "name": "Rosemary"
+    },
+    {
+      "name": "Saffron"
+    },
+    {
+      "name": "Sage"
+    },
+    {
+      "name": "Smoked paprika"
+    },
+    {
+      "name": "Thyme"
+    },
+    {
+      "name": "Turmeric"
+    },
+    {
+      "name": "Vanilla"
+    }
+  ]
+}

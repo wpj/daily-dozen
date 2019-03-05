@@ -1,0 +1,68 @@
+{
+  "displayName": "Beverages",
+  "name": "beverages",
+  "servingSuggestions": [
+    {
+      "suggestion": "(one glass)",
+      "imperialServing": {
+        "quantity": 12,
+        "unit": "oz"
+      },
+      "metricServing": {
+        "quantity": 350,
+        "unit": "ml"
+      }
+    }
+  ],
+  "total": 5,
+  "types": [
+    {
+      "name": "Black tea"
+    },
+    {
+      "name": "Chai tea"
+    },
+    {
+      "name": "Vanilla chamomile tea"
+    },
+    {
+      "name": "Coffee"
+    },
+    {
+      "name": "Earl grey tea"
+    },
+    {
+      "name": "Green tea"
+    },
+    {
+      "name": "Hibiscus tea"
+    },
+    {
+      "name": "Hot chocolate"
+    },
+    {
+      "name": "Jasmine tea"
+    },
+    {
+      "name": "Lemon balm tea"
+    },
+    {
+      "name": "Matcha tea"
+    },
+    {
+      "name": "Almond blossom oolong tea"
+    },
+    {
+      "name": "Peppermint tea"
+    },
+    {
+      "name": "Rooibos tea"
+    },
+    {
+      "name": "Water"
+    },
+    {
+      "name": "White tea"
+    }
+  ]
+}

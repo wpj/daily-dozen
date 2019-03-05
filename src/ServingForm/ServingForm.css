@@ -1,0 +1,6 @@
+.ServingForm__list-item {
+}
+
+.ServingForm__list-item:last-child {
+  border-bottom-style: none;
+}

@@ -1,0 +1,67 @@
+{
+  "displayName": "Berries",
+  "name": "berries",
+  "servingSuggestions": [
+    {
+      "suggestion": ["fresh berries", "frozen berries"],
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 60,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "dried berries",
+      "imperialServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 40,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    {
+      "name": "Acai berries"
+    },
+    {
+      "name": "Barberries"
+    },
+    {
+      "name": "Blackberries"
+    },
+    {
+      "name": "Blueberries"
+    },
+    {
+      "name": "Cherries (sweet or tart)"
+    },
+    {
+      "name": "Concord grapes"
+    },
+    {
+      "name": "Cranberries"
+    },
+    {
+      "name": "Goji berries"
+    },
+    {
+      "name": "Kumquats"
+    },
+    {
+      "name": "Mulberries"
+    },
+    {
+      "name": "Raspberries (black or red)"
+    },
+    {
+      "name": "Strawberries"
+    }
+  ]
+}

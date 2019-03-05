@@ -1,0 +1,107 @@
+{
+  "displayName": "Other Vegetables",
+  "name": "other-vegetables",
+  "servingSuggestions": [
+    {
+      "suggestion": "raw leafy vegetables",
+      "imperialServing": {
+        "quantity": 1,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 60,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": ["raw non-leafy vegetables", "cooked non-leafy vegetables"],
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 50,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "vegetable juice",
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 125,
+        "unit": "ml"
+      }
+    },
+    {
+      "suggestion": "dried mushrooms",
+      "imperialServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 7,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 2,
+  "types": [
+    {
+      "name": "Artichokes"
+    },
+    {
+      "name": "Asparagus"
+    },
+    {
+      "name": "Beets"
+    },
+    {
+      "name": "Bell peppers"
+    },
+    {
+      "name": "Carrots"
+    },
+    {
+      "name": "Corn"
+    },
+    {
+      "name": "Garlic"
+    },
+    {
+      "name": "Mushrooms (button, oyster, portobello, and shiitake)"
+    },
+    {
+      "name": "Okra"
+    },
+    {
+      "name": "Onions"
+    },
+    {
+      "name": "Pumpkin"
+    },
+    {
+      "name": "Purple potatoes"
+    },
+    {
+      "name": "Sea vegetables (arame, dulse, and nori)"
+    },
+    {
+      "name": "Snap peas"
+    },
+    {
+      "name": "Squash (delicata, summer, and spaghetti squash varieties)"
+    },
+    {
+      "name": "Sweet potatoes/yams"
+    },
+    {
+      "name": "Tomatoes"
+    },
+    {
+      "name": "Zucchini"
+    }
+  ]
+}

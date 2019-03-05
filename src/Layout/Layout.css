@@ -1,0 +1,18 @@
+.gradient-border-bottom {
+  position: relative;
+}
+
+.gradient-border-bottom:after {
+  content: '';
+  width: 90%;
+  height: 0.2em;
+  position: absolute;
+  left: 5%;
+  bottom: -0.3em;
+  background: hsl(199, 84%, 55%);
+  background: linear-gradient(
+    to right,
+    /* blue */ hsl(199, 84%, 55%),
+    /* lightblue */ hsl(196, 94%, 67%)
+  );
+}

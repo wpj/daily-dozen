@@ -1,0 +1,11 @@
+.ta-manipulation {
+  touch-action: manipulation;
+}
+
+.ta-none {
+  touch-action: none;
+}
+
+.ta-auto {
+  touch-action: auto;
+}

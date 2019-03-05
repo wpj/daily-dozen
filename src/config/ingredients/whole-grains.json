@@ -1,0 +1,93 @@
+{
+  "displayName": "Whole Grains",
+  "name": "whole-grains",
+  "servingSuggestions": [
+    {
+      "suggestion": ["hot cereal", "cooked grains", "pasta", "corn kernels"],
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 100,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "cold cereal",
+      "imperialServing": {
+        "quantity": 1,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 50,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": ["tortilla", "slice of bread"],
+      "serving": {
+        "quantity": 1
+      }
+    },
+    {
+      "suggestion": "bagel",
+      "serving": {
+        "quantity": 0.5
+      }
+    },
+    {
+      "suggestion": "English muffin",
+      "serving": {
+        "quantity": 1
+      }
+    },
+    {
+      "suggestion": "popcorn",
+      "imperialServing": {
+        "quantity": 3,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 30,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 3,
+  "types": [
+    {
+      "name": "Barley"
+    },
+    {
+      "name": "Brown rice"
+    },
+    {
+      "name": "Buckwheat"
+    },
+    {
+      "name": "Millet"
+    },
+    {
+      "name": "Oats"
+    },
+    {
+      "name": "Whole-wheat pasta"
+    },
+    {
+      "name": "Popcorn"
+    },
+    {
+      "name": "Quinoa"
+    },
+    {
+      "name": "Rye"
+    },
+    {
+      "name": "Teff"
+    },
+    {
+      "name": "Wild rice"
+    }
+  ]
+}

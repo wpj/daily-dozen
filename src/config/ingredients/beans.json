@@ -1,0 +1,91 @@
+{
+  "displayName": "Beans",
+  "name": "beans",
+  "servingSuggestions": [
+    {
+      "suggestion": ["hummus", "bean dip"],
+      "imperialServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 60,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": ["cooked beans", "split peas", "lentils", "tofu", "tempeh"],
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 130,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": ["fresh peas", "sprouted lentils"],
+      "imperialServing": {
+        "quantity": 1,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 150,
+        "unit": "g"
+      }
+    }
+  ],
+  "total": 3,
+  "types": [
+    {
+      "name": "Black beans"
+    },
+    {
+      "name": "Black-eyed peas"
+    },
+    {
+      "name": "Butter beans"
+    },
+    {
+      "name": "Cannellini beans"
+    },
+    {
+      "name": "Chickpeas"
+    },
+    {
+      "name": "Edamame"
+    },
+    {
+      "name": "English peas"
+    },
+    {
+      "name": "Garbanzo beans"
+    },
+    {
+      "name": "Great northern beans"
+    },
+    {
+      "name": "Kidney beans"
+    },
+    {
+      "name": "Lentils (beluga, french, and red varieties)"
+    },
+    {
+      "name": "Miso"
+    },
+    {
+      "name": "Navy beans"
+    },
+    {
+      "name": "Pinto beans"
+    },
+    { "name": "Small red beans" },
+    {
+      "name": "Split peas (yellow or green)"
+    },
+    {
+      "name": "Tempeh"
+    }
+  ]
+}

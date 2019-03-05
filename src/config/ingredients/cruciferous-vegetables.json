@@ -1,0 +1,77 @@
+{
+  "displayName": "Cruciferous Vegetables",
+  "name": "cruciferous-vegetables",
+  "servingSuggestions": [
+    {
+      "suggestion": "chopped",
+      "imperialServing": {
+        "quantity": 0.5,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": { "min": 30, "max": 80 },
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": ["Brussels sprouts", "broccoli"],
+      "imperialServing": {
+        "quantity": 0.25,
+        "unit": "cup"
+      },
+      "metricServing": {
+        "quantity": 12,
+        "unit": "g"
+      }
+    },
+    {
+      "suggestion": "horseradish",
+      "serving": {
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    {
+      "name": "Arugula"
+    },
+    {
+      "name": "Bok choy"
+    },
+    {
+      "name": "Broccoli"
+    },
+    {
+      "name": "Brussels sprouts"
+    },
+    {
+      "name": "Cabbage"
+    },
+    {
+      "name": "Cauliflower"
+    },
+    {
+      "name": "Collard greens"
+    },
+    {
+      "name": "Horseradish"
+    },
+    {
+      "name": "Kale (black, green, and red)"
+    },
+    {
+      "name": "Mustard greens"
+    },
+    {
+      "name": "Radishes"
+    },
+    {
+      "name": "Turnip greens"
+    },
+    {
+      "name": "Watercress"
+    }
+  ]
+}

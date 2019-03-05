@@ -1,0 +1,22 @@
+{
+  "displayName": "Flaxseeds",
+  "name": "flaxseeds",
+  "servingSuggestions": [
+    {
+      "suggestion": "ground",
+      "serving": {
+        "quantity": 1,
+        "unit": "tbsp"
+      }
+    }
+  ],
+  "total": 1,
+  "types": [
+    {
+      "name": "Brown flaxseeds"
+    },
+    {
+      "name": "Golden flaxseeds"
+    }
+  ]
+}
