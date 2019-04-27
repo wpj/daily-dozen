@@ -18,7 +18,7 @@ export interface KeyedIngredients {
 }
 
 export type Props = {
-  date: Date;
+  date?: Date;
   ingredients: Ingredient[];
 };
 
@@ -176,6 +176,10 @@ export const ServingForm: FunctionComponent<Props> = ({
   });
 
   async function loadEntryEffect() {
+    if (!date) {
+      return;
+    }
+
     const stored = await loadEntry(date);
 
     dispatch({ type: LOAD_COMPLETED, stored });
@@ -188,10 +192,10 @@ export const ServingForm: FunctionComponent<Props> = ({
 
   // save data to database
   useEffect(() => {
-    if (changed) {
+    if (date && changed) {
       saveState({ date, state: ingredientStates });
     }
-  }, [ingredientStates]);
+  }, [changed, ingredientStates, date]);
 
   return (
     <ControlArea>

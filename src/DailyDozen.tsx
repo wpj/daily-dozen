@@ -1,4 +1,10 @@
-import React, { useState, FunctionComponent, HTMLProps } from 'react';
+import cc from 'classcat';
+import React, {
+  useEffect,
+  useState,
+  FunctionComponent,
+  HTMLProps,
+} from 'react';
 import { addDays, format as formatDate, subDays } from 'date-fns';
 
 import ArrowLeft from './ds/icons/ArrowLeft';
@@ -12,37 +18,62 @@ const Button: FunctionComponent<ButtonProps> = props => {
   return (
     <button
       {...props}
-      className="input-reset pointer color-inherit pa2 bn bg-transparent"
+      className={cc([
+        'input-reset pointer color-inherit pa2 bn bg-transparent',
+        props.className,
+      ])}
     />
   );
 };
 
+function DateControl({
+  date,
+  setDate,
+}: {
+  date: Date;
+  setDate: (date: Date) => void;
+}) {
+  const formattedDate = date ? formatDate(date, 'MMMM d, yyyy') : undefined;
+
+  return (
+    <div className="flex justify-center pv2 justify-between lh-solid mid-gray sans-serif">
+      <Button
+        aria-label="go to previous day"
+        className="ml5"
+        onClick={() => setDate(subDays(date, 1))}
+      >
+        <ArrowLeft />
+      </Button>
+      <div className="di pa2">{formattedDate || null}</div>
+      <Button
+        aria-label="Go to next day"
+        className="mr5"
+        onClick={() => setDate(addDays(date, 1))}
+      >
+        <ArrowRight />
+      </Button>
+    </div>
+  );
+}
+
+function useDate() {
+  const [date, setDate] = useState();
+
+  useEffect(() => {
+    setDate(new Date());
+  }, []);
+
+  return [date, setDate];
+}
+
 export const DailyDozen: FunctionComponent<{ ingredients: Ingredient[] }> = ({
   ingredients,
 }) => {
-  const [date, setDate] = useState(new Date());
-
-  const formattedDate = formatDate(date, 'MMMM d, yyyy');
+  const [date, setDate] = useDate();
 
   return (
     <>
-      <div className="flex justify-center pv2">
-        <div className="lh-solid mid-gray sans-serif flex items-start">
-          <Button
-            aria-label="go to previous day"
-            onClick={() => setDate(subDays(date, 1))}
-          >
-            <ArrowLeft />
-          </Button>
-          <div className="di pa2">{formattedDate}</div>
-          <Button
-            aria-label="Go to next day"
-            onClick={() => setDate(addDays(date, 1))}
-          >
-            <ArrowRight />
-          </Button>
-        </div>
-      </div>
+      <DateControl date={date} setDate={setDate} />
       <ServingForm date={date} ingredients={ingredients} />
     </>
   );
